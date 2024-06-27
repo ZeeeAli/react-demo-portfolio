@@ -1,9 +1,8 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { FaHtml5 } from "react-icons/fa";
+import { AiOutlineJavaScript } from "react-icons/ai";
+import { RiTailwindCssLine } from "react-icons/ri";
+import { FaCss3Alt } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -44,37 +43,14 @@ const Technologies = () => {
         >
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
+
         <motion.div
-          variants={iconVariants(3)}
+          variants={iconVariants(4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4 "
         >
-          <TbBrandNextjs className="text-7xl text-white" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4 "
-        >
-          <SiMongodb className="text-7xl text-green-500" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(2)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4 "
-        >
-          <DiRedis className="text-7xl text-red-700" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(6)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4 "
-        >
-          <FaNodeJs className="text-7xl text-green-500" />
+          <FaHtml5 className="text-7xl text-orange-700" />
         </motion.div>
         <motion.div
           variants={iconVariants(4)}
@@ -82,7 +58,23 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4 "
         >
-          <BiLogoPostgresql className="text-7xl text-sky-700" />
+          <FaCss3Alt className="text-7xl text-blue-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4 "
+        >
+          <AiOutlineJavaScript className="text-7xl text-yellow-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4 "
+        >
+          <RiTailwindCssLine className="text-7xl text-sky-400" />
         </motion.div>
       </motion.div>
     </div>

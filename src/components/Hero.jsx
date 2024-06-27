@@ -1,11 +1,6 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/ZeeshanProfile.png";
 import { motion } from "framer-motion";
-
-// const container = (delay) => ({
-//   hidden: { x: -100, opacity: 0 },
-//   visible: { x: 0, opacity: 1, transition: { duration: 0.5 }, delay: delay },
-// });
 
 const Hero = () => {
   return (
@@ -19,7 +14,7 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0 }}
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
-              Kevin Rush
+              Zeeshan Ali
             </motion.h1>
             <motion.span
               initial={{ x: -100, opacity: 0 }}
@@ -27,7 +22,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 0.5 }}
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent "
             >
-              Full Stack Developer
+              Web Developer
             </motion.span>
             <motion.p
               initial={{ x: -100, opacity: 0 }}
